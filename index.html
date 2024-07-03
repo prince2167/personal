@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,14 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
 
   <!--
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
 
   <!--
     - google font link
@@ -23,6 +26,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("1MIsa7-zZ8J6RQAnm");
+    })()
+  </script>
+
 </head>
 
 <body>
@@ -140,13 +150,13 @@
           </li>
 
           <li class="social-item">
-            <a href="#" target="_blank" class="social-link">
+            <a href="https://x.com/me_princesingh" target="_blank" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" target="_blank" class="social-link">
+            <a href="https://www.instagram.com/me_princesingh/" target="_blank" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -215,9 +225,12 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            Hi, I'm Prince Kumar Singh, a front-end developer with 1 years of experience in creating user-friendly and
+            visually appealing websites. I specialize in HTML, CSS, JavaScript, Typescript and frameworks like React and
+            Next.js. I&apos;m passionate about clean code, continuous learning, and staying up-to-date with the latest
+            tech
+            trends. In my free time, I enjoy exploring design trends, contributing to open-source projects, and sharing
+            knowledge with the developer community. Let&apos;s connect and build something great together!
           </p>
 
           <p>
@@ -225,7 +238,7 @@
             Moreover, I
             add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
             across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            message and identity in the most creative way.
           </p>
         </section>
 
@@ -240,7 +253,7 @@
 
           <ul class="service-list">
 
-            <li class="service-item">
+            <!-- <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="./assets/images/icon-design.svg
@@ -255,7 +268,7 @@
                 </p>
               </div>
 
-            </li>
+            </li> -->
 
             <li class="service-item">
 
@@ -289,7 +302,7 @@
 
             </li>
 
-            <li class="service-item">
+            <!-- <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
@@ -303,7 +316,7 @@
                 </p>
               </div>
 
-            </li>
+            </li> -->
 
           </ul>
 
@@ -314,7 +327,7 @@
           - testimonials
         -->
 
-        <section class="testimonials">
+        <!-- <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -410,7 +423,7 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
 
         <!--
@@ -464,43 +477,49 @@
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+          <h3 class="h3 clients-title">Tech Stack</h3>
 
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./assets/images/javascript.svg" alt="client logo" height="150">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                <img src="./assets/images/typescript.svg" alt="client logo" height="150">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                <img src="./assets/images/react.svg" alt="client logo" height="150">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                <img src="./assets/images/next.svg" alt="client logo" height="150">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                <img src="./assets/images/tailwind.svg" alt="client logo" height="150">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                <img src="./assets/images/node.svg" alt="client logo" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/mongodb.svg" alt="client logo" height="150">
               </a>
             </li>
 
@@ -543,9 +562,10 @@
               <span>Jan 2024 — May 2024</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                At Chakr Innovation, I was an SDE Intern where I developed a robust, responsive dashboard application
+                using Next.js, Tailwind CSS, TypeScript, and Redux. I engineered reusable UI components, implemented SSR
+                and CSR strategies, and architected RESTful APIs and microservices in Go/Golang with gin, delivering
+                high performance and scalability.
               </p>
 
             </li>
@@ -557,9 +577,9 @@
               <span>Feb 2023 — Dec 2023</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                At neog camp, I completed an apprenticeship where I developed full-stack web applications using React
+                and Node.js. I collaborated on projects with Git and GitHub, provided guidance to students learning the
+                frontend, and conducted code reviews to improve code quality.
               </p>
 
             </li>
@@ -587,9 +607,7 @@
               <span>2019 — 2022</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Bachelor of Computers Applications
               </p>
 
             </li>
@@ -601,22 +619,7 @@
               <span>2016 — 2018</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Central Board of Secondary Education</h4>
-
-              <span>2006 — 2016</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                Completed my intermediate education with a specialization in Computer Science.
               </p>
 
             </li>
@@ -662,7 +665,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
+                <h5 class="h5">React.js</h5>
                 <data value="90">90%</data>
               </div>
 
@@ -675,12 +678,25 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">Next.js</h5>
+                <data value="90">90%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
 
             </li>
@@ -713,13 +729,13 @@
               <button class="active" data-filter-btn>All</button>
             </li>
 
-            <li class="filter-item">
+            <!-- <li class="filter-item">
               <button data-filter-btn>Web design</button>
-            </li>
+            </li> -->
 
-            <li class="filter-item">
+            <!-- <li class="filter-item">
               <button data-filter-btn>Applications</button>
-            </li>
+            </li> -->
 
             <li class="filter-item">
               <button data-filter-btn>Web development</button>
@@ -745,13 +761,13 @@
                 <button data-select-item>All</button>
               </li>
 
-              <li class="select-item">
+              <!-- <li class="select-item">
                 <button data-select-item>Web design</button>
-              </li>
+              </li> -->
 
-              <li class="select-item">
+              <!-- <li class="select-item">
                 <button data-select-item>Applications</button>
-              </li>
+              </li> -->
 
               <li class="select-item">
                 <button data-select-item>Web development</button>
@@ -764,17 +780,17 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://devoverflow-prince.vercel.app/" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/devoverflow.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Devoverflow</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -782,42 +798,41 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://mail.google.com/mail/u/2/#inbox/FMfcgzQVxRHNTfmffbxmCsdDCrwjrsNx">
+              <a href="https://instander.vercel.app/" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/Instander.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Instander</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://prince-clothify.vercel.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/clothify.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Clothify</h3>
 
                 <p class="project-category">Web development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <!-- <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -851,79 +866,9 @@
                 <p class="project-category">Web design</p>
 
               </a>
-            </li>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
 
           </ul>
 
@@ -946,8 +891,9 @@
         </header>
 
         <section class="blog-posts">
+          <h1 class="blog-come">Yet to come</h1>
 
-          <ul class="blog-posts-list">
+          <!-- <ul class="blog-posts-list">
 
             <li class="blog-post-item">
               <a href="#">
@@ -1117,7 +1063,7 @@
               </a>
             </li>
 
-          </ul>
+          </ul> -->
 
         </section>
 
@@ -1137,34 +1083,38 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <!-- <section class="mapbox" data-mapbox>
+        <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1046.4449813654003!2d76.9565709059491!3d28.6317210601071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1719995490694!5m2!1sen!2sin"
+              width="400" height="400" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
-        </section> -->
+        </section>
 
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <div action="sendMail()" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required
+                data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required
+                data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required
+              data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" onClick="sendMail()">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
 
-          </form>
+          </div>
 
         </section>
 
